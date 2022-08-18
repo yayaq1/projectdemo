@@ -1,0 +1,103 @@
+.topbar{
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    width: 100%;
+    height:50px;
+    background-color: white;
+}
+
+.topbarWrapper
+{
+ height: 100%;
+ padding: 0px 20px;
+ display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+/*.topAvatar{
+    margin-bottom: 200px;
+    margin-left: 150px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}*/
+
+.logo{
+   margin-top: 46px;
+  
+   font-weight: bold;
+   font-size: 20px;
+   color: rgb(14, 14, 14);
+   cursor: pointer;
+   
+}
+
+.arrowIcon{
+   
+margin-top: 45px;
+margin-left: 10px;
+
+border-radius: 50%;
+
+background-color: rgb(163, 163, 163);
+}
+
+.topRight
+{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.topLeft
+{
+ 
+    margin-top: 76px;
+    margin-right: 640px;
+    
+}
+
+.topMiddle{
+    display: flex;
+    align-items: Left;
+    margin-top: 40px;
+    }
+
+.topbarIconContainer{
+  position: relative;
+  cursor: pointer;
+  margin-right: 10px; 
+  margin-top: 20px; 
+}
+
+.topIconBadge{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: -5px;
+    right: 14px;
+    background-color: rgb(255, 170, 0);
+    color: yellow;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*.topIconBadge2{
+
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: -5px;
+    left: 140x;
+    border: 0;
+    
+    margin-top: 40px;
+    background-color: rgb(220, 215, 208);
+    color: yellow;
+    border-radius: 50%;
+
+}*/
